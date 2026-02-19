@@ -1,29 +1,47 @@
 # =========================
 # Laravel Backend
 # =========================
+
+# Dependencies
 backend/vendor/
 backend/node_modules/
+
+# Environment
 backend/.env
-backend/storage/logs/
-backend/storage/framework/
-backend/bootstrap/cache/
+
+# Storage (keep structure, ignore junk)
+backend/storage/logs/*
+backend/storage/framework/*
+!backend/storage/framework/.gitkeep
+
+# Bootstrap cache (keep folder only)
+backend/bootstrap/cache/*
+!backend/bootstrap/cache/.gitkeep
 
 # =========================
 # React Frontend
 # =========================
+
 web-customer/node_modules/
 web-customer/build/
 web-customer/.env
 
 # =========================
-# OS / Editor junk
+# OS junk
 # =========================
+
 .DS_Store
 Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
 *.log
 
 # =========================
-# IDE
+# IDE / Editor
 # =========================
+
 .vscode/
 .idea/
