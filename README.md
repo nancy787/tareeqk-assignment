@@ -1,4 +1,4 @@
-# 🚗 Towing Service Management System
+# Towing Service Management System
 
 A full-stack towing request management system built with:
 

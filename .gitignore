@@ -1,0 +1,29 @@
+# =========================
+# Laravel Backend
+# =========================
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/storage/logs/
+backend/storage/framework/
+backend/bootstrap/cache/
+
+# =========================
+# React Frontend
+# =========================
+web-customer/node_modules/
+web-customer/build/
+web-customer/.env
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
