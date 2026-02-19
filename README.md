@@ -48,8 +48,8 @@ http://localhost:3000
 🔐 Test Users (Seeder)
 | Role     | Email                                         | Password    |
 | -------- | --------------------------------------------- | ----------- |
-| Customer | [customer@test.com]                           | password123 |
-| Driver   | [driver@test.com]                             | password123 |
+| Customer | customer@example.com                          | password123 |
+| Driver   | driver@example.com                            | password123 |
 
 🚀 Features
 
