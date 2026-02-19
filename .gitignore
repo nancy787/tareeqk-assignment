@@ -9,14 +9,20 @@ backend/node_modules/
 # Environment
 backend/.env
 
-# Storage (keep structure, ignore junk)
+# Storage (keep structure, ignore runtime files)
 backend/storage/logs/*
 backend/storage/framework/*
-!backend/storage/framework/.gitkeep
 
-# Bootstrap cache (keep folder only)
-backend/bootstrap/cache/*
-!backend/bootstrap/cache/.gitkeep
+!backend/storage/framework/cache/
+!backend/storage/framework/cache/data/
+!backend/storage/framework/cache/data/.gitkeep
+
+!backend/storage/framework/sessions/
+!backend/storage/framework/sessions/.gitkeep
+
+!backend/storage/framework/views/
+!backend/storage/framework/views/.gitkeep
+
 
 # =========================
 # React Frontend
