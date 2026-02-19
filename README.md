@@ -15,6 +15,7 @@ Customers can create towing requests with live location, and drivers can accept 
 cd backend
 
 2️⃣ Install dependencies
+composer install
 cp .env.example .env
 
 4️⃣ Configure database in .env
